@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+body {
+    font-family: 'Inter';
+    font-size: 22px;
+    background-image: url(../../img/otherRoutes/mainBG.svg);
+}
+
+header {
+    margin: 0px 70px 150px 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin-top: 80px;
+
+}
+
+.navbar ul {
+    margin-top: 80px;
+    font-size: 14px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 24px;
+}
+
+.navbar ul li a {
+
+    color: white;
+    padding: 4px 8px 4px 8px;
+}
+
+.event {
+    background-color: white;
+    width: 1087px;
+    /* height: 3540px; */
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+main .heading {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 60px;
+
+}
+
+.event .para1 {
+    text-align: justify;
+  text-justify: auto;
+    line-height: 50px;
+    font-size: 24px;
+    opacity: 0.6;
+
+    margin: 40px 100px 40px 100px;
+}
+.event .para2 {
+    text-align: justify;
+    text-justify: auto;
+
+    line-height: 50px;
+    font-size: 24px;
+    opacity: 0.6;
+    margin: 40px 85px 40px 85px;
+}
+
+.event .para1 span {
+    margin-top: 10px;
+}
+.event .para2 span {
+    margin-top: 10px;
+
+}
+
+.event .tnc {
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+
+/* contact */
+.contact-wrapper{
+    width: 100%;
+    color: white;
+    margin-top: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+
+    
+    }
+    .contact{
+      font-size: 40px;
+    }
+    .footerBG{
+      background-color: var(--footerBG);
+      text-align: center;
+    width: 100%;
+    }
+    .contact-wrapper ul {
+      margin-top: 40px;
+      font-size: 14px;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 40px;
+    
+    }
+    
+    .contact-wrapper ul li a {
+      color: white;
+      padding: 4px 8px 4px 8px;
+    
+    
+    }
+    .numbers{
+      font-size: 26px;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      gap: 220px;
+    
+    }
+    .s4-icon-wrapper img{
+      margin-top: 80px;
+      margin-bottom: 30px;
+      margin-left: 40px;
+      margin-right: 40px;
+    }
+    .copyright{
+      font-size: 12px;
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }

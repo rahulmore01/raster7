@@ -1,0 +1,393 @@
+html {
+    overflow-x: hidden;
+}
+
+body {
+
+    width: auto;
+    height: 100%;
+    text-decoration: none;
+    font-weight: 100;
+    overflow-x: hidden;
+
+}
+
+.hero {
+    margin-top: 0;
+    background-image: url(../../img/stars_bg2.svg);
+    /* height: 112.9vh; */
+    width: 100%;
+}
+
+header {
+    margin: 0px 70px 0px 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin-top: 80px;
+
+}
+
+.navbar ul {
+    margin-top: 80px;
+    font-size: 14px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 24px;
+}
+
+.navbar ul li a {
+
+    color: white;
+    padding: 4px 8px 4px 8px;
+}
+
+/* section 2 */
+.section-two {
+    height: auto;
+    width: 100%;
+}
+
+.section-two-wrapper {
+    text-align: center;
+}
+
+.s2-text1 {
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    margin-left: 80px;
+    margin-right: 80px;
+    opacity: 0.6;
+    letter-spacing: -2px;
+    font-weight: 900;
+}
+
+.s2-text2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+
+}
+
+.register-now {
+    font-size: 24px;
+    padding: 30px 100px 30px 100px;
+    margin-bottom: 40px;
+    cursor: pointer;
+
+    border-radius: 30px;
+    color: white;
+    background-color: var(--registerBTN);
+    border: var(--registerSTROKE) solid 2px;
+    letter-spacing: -1px;
+    font-weight: 600;
+}
+
+.s2-heading {
+    font-size: 48px;
+    font-weight: 400;
+    letter-spacing: -2px;
+    font-weight: bold;
+
+}
+
+.s2-text3 {
+    font-size: 30px;
+    text-transform: capitalize;
+    opacity: 0.6;
+    letter-spacing: -2px;
+    font-weight: 600;
+}
+
+/* section3 */
+
+
+.section-three {
+    height: auto;
+    width: 100%;
+
+}
+
+.s3-heading {
+    font-size: 48px;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 60px;
+    letter-spacing: -2px;
+    font-weight: 600;
+
+}
+
+.s3-card-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.s3-card {
+    height: 480px;
+    width: 490px;
+    margin-top: 80px;
+    box-shadow: 0px 2px 6px 2px rgba(0, 0, 0, 0.255);
+    background-color: white;
+
+}
+
+.placeholder {
+    width: 490px;
+    height: 280px;
+    background-color: rgb(144, 144, 144);
+}
+.placeholder img {
+    width: 490px;
+    height: 280px;
+
+}
+
+.card-details {
+    margin-left: 18px;
+    margin-right: 18px;
+
+}
+
+.card-details a {
+    color: #222224;
+
+}
+
+.s3-card-heading {
+    font-size: 20px;
+    margin-top: 47px;
+    margin-bottom: 12px;
+}
+
+.s3-card-para {
+    font-size: 16px;
+    color: #737373;
+    margin-bottom: 12px;
+
+}
+
+.card-footer {
+    color: var(--registerSTROKE);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+.email-btn {
+    font-size: 14px;
+    color: var(--cardBTN);
+    background-color: white;
+    border-radius: 500px;
+    border: var(--cardBTN) solid 2px;
+    padding: 8px 18px 8px 18px;
+}
+
+.icon-wrapper img {
+    margin: 8px 8px 8px 8px;
+}
+
+/* <!-- section4 --> */
+.section-four {
+    background-image: url(./img/stars_bg2.svg);
+    width: 100%;
+
+    height: 1518px;
+    color: white;
+}
+
+.s4-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.s4-top-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.s4-title {
+    margin: 0px 200px;
+    padding-top: 80px;
+    font-size: 52px;
+    color: white;
+    text-align: center;
+
+}
+
+.s4-logocard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    width: 1100px;
+    height: 370px;
+    padding: 20px 60px 20px 60px;
+    border-radius: 20px;
+    margin-top: 60px;
+    gap: 50px;
+}
+
+.s4-logocard img {
+    width: 230px;
+
+}
+
+.contact-wrapper {
+    width: 100%;
+
+    margin-top: 310px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.contact {
+    font-size: 40px;
+    color: white;
+
+}
+
+.footerBG {
+    background-color: var(--footerBG);
+    text-align: center;
+    width: 100%;
+}
+
+.contact-wrapper ul {
+    margin-top: 40px;
+    font-size: 14px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+}
+
+.contact-wrapper ul li a {
+
+    color: white;
+    padding: 4px 8px 4px 8px;
+
+
+}
+
+.numbers {
+    font-size: 26px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 220px;
+    color: white;
+
+
+}
+
+.s4-icon-wrapper img {
+    color: white;
+
+    margin-top: 80px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.copyright {
+    color: white;
+    font-size: 12px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+/* ========updated contact us ========= */
+
+
+
+/* ========updated contact========= */
+
+.phone{
+    font-size: 16px;
+    text-align: left;
+}
+.nfooter{
+    background-color: var(--footerBG);
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 40px;
+}
+.box1{
+    width: 250px;
+}
+.box1 H1{
+font-size: 20px;
+}
+.box1 p{
+    margin-top: 20px;
+font-size: 14px;
+}
+.box2 H1{
+    font-size: 20px;
+    text-transform: capitalize;
+    }
+
+    .box2-p{
+        margin-top: 20px;
+    font-size: 14px;
+    }
+    .box2-p p{
+        margin-top: 8px;
+    }
+    .box3 H1{
+        font-size: 20px;
+        text-transform: capitalize;
+        }
+
+    .box3-p{
+       margin-top: 20px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    gap: 8px;
+    }
+
+.box3 .box3-p a{
+    color: white;
+
+}
+.contact-head {
+    margin-top: 80px;
+}
+.contact-head p{
+color: white;
+text-align: center;
+}
+.contact-head h1{
+    margin-top: 12px;
+color: white;
+text-align: center;
+
+}

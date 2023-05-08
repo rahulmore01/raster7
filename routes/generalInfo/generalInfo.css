@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+body {
+    font-family: 'Inter';
+
+    background-image: url(../../img/otherRoutes/mainBG.svg);
+}
+
+header {
+    margin: 0px 70px 150px 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin-top: 80px;
+
+}
+
+.navbar ul {
+    margin-top: 80px;
+    font-size: 14px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 24px;
+}
+
+.navbar ul li a {
+
+    color: white;
+    padding: 4px 8px 4px 8px;
+}
+
+/* main */
+.event {
+    background-color: white;
+    width: 1087px;
+    /* height: 3540px; */
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+main .heading {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+.event .para1 {
+    line-height: 50px;
+    font-size: 24px;
+    opacity: 0.6;
+    text-align: center;
+    margin: 40px 100px 40px 100px;
+}
+
+.event .para2 {
+    line-height: 50px;
+    font-size: 24px;
+    opacity: 0.6;
+    text-align: left;
+    margin: 40px 85px 40px 85px;
+}
+
+.event .para1 span {
+    margin-top: 10px;
+}
+
+.event .para2 span {
+    margin-top: 10px;
+
+}
+
+.box {
+    width: 900px;
+    height: 400px;
+    border: black solid 4px;
+    margin: 0 auto;
+}
+
+.event .tnc {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.points-wrapper {
+    /* background-color: white; */
+    padding-bottom: 100px;
+    width: 100%;
+
+}
+
+.single-point1 {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    margin: 30px 70px 0px 70px;
+
+}
+
+.single-point img {
+    margin-top: 16px;
+}
+
+.single-point1 img {
+    margin-top: 16px;
+}
+
+.single-point-last img {
+    margin-top: 16px;
+}
+
+.single-point {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    margin: 30px 70px 0px 70px;
+
+
+}
+
+.single-point-last {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    margin: 30px 70px 0px 70px;
+
+
+}
+
+.para-point {
+    line-height: 50px;
+    font-size: 24px;
+    opacity: 0.6;
+    text-align: center;
+    text-align: left;
+}
+
+/* travel */
+.travel {}
+
+.travel-heading {
+    font-size: 40px;
+    text-align: center;
+    margin: 40px 85px 0px 85px;
+
+
+}
+
+.travel-para {
+    text-align: center;
+    line-height: 50px;
+    font-size: 24px;
+    opacity: 0.6;
+    margin: 40px 85px 40px 85px;
+    text-align: justify;
+    text-justify: inter-word;
+
+}
+
+/* btn div */
+.btn-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-heading {
+    font-size: 40px;
+
+
+    text-align: center;
+}
+
+.register-now {
+    font-size: 24px;
+    padding: 30px 100px 30px 100px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    cursor: pointer;
+
+    border-radius: 30px;
+    color: white;
+    background-color: var(--registerBTN);
+    border: var(--registerSTROKE) solid 2px;
+}
+
+.register-now a {
+    color: white;
+
+}
+
+.link-btn {
+    width: 340px;
+    height: 90px;
+    font-size: 24px;
+    border-radius: 30px;
+    margin-top: 40px;
+    cursor: pointer;
+    color: var(--registerBTN);
+    background-color: white;
+    border: var(--registerBTN) solid 2px;
+
+}
+
+/* contact */
+.contact-wrapper {
+    width: 100%;
+    color: white;
+    margin-top: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+
+
+}
+
+.contact {
+    font-size: 40px;
+}
+
+.footerBG {
+    background-color: var(--footerBG);
+    text-align: center;
+    width: 100%;
+}
+
+.contact-wrapper ul {
+    margin-top: 40px;
+    font-size: 14px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+}
+
+.contact-wrapper ul li a {
+    color: white;
+    padding: 4px 8px 4px 8px;
+
+
+}
+
+.numbers {
+    font-size: 26px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 220px;
+
+}
+
+.s4-icon-wrapper img {
+    margin-top: 80px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.copyright {
+    font-size: 12px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}

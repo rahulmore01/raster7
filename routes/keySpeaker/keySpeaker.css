@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+body {
+    font-family: 'Inter';
+
+    background-image: url(../../img/otherRoutes/mainBG.svg);
+}
+
+header {
+    margin: 0px 70px 150px 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin-top: 80px;
+
+}
+
+.navbar ul {
+    margin-top: 80px;
+    font-size: 14px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 24px;
+}
+
+.navbar ul li a {
+
+    color: white;
+    padding: 4px 8px 4px 8px;
+}
+/* main */
+
+main h1{
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+    color: white;
+    margin-bottom: 50px;
+}
+/* card */
+.all-card-wrapper{
+    display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+/* gap: 30px; */
+}
+.s3-card-wrapper{
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+}
+.s3-card{
+    background-color: white;
+  height: 410px;
+  width: 490px;
+  margin-bottom: 80px;
+  box-shadow: 0px 2px 6px 2px rgba(0, 0, 0, 0.255);
+}
+.placeholder{
+  width: 490px;
+  height: 280px;
+  background-color: rgb(144, 144, 144);
+}
+.card-details{
+  margin-left: 18px;
+  margin-right: 18px;
+}
+.s3-card-heading{
+font-size: 20px;
+margin-top: 30px;
+text-align: left;
+color: black;
+margin-bottom: 12px;
+}
+.s3-card-para{
+  font-size: 16px;
+color: #737373;
+
+
+}
+
+.card-footer{
+display: flex;
+justify-content: space-between;
+}
+.email-btn{
+  font-size: 14px;
+  color: var(--cardBTN);
+background-color: white;
+border-radius: 500px;
+border: var(--cardBTN) solid 2px;
+padding: 8px 18px 8px 18px;
+}
+.icon-wrapper img{
+margin: 8px 8px 8px 8px;
+}
+
+/* logocard */
+
+.logocard-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.s4-title{
+    margin: 0px 200px;
+    padding-top: 80px;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+  
+  }
+  .s4-logocard{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    width: 1100px;
+    height: 370px;
+    padding: 20px 60px 20px 60px ;
+    border-radius: 20px;
+    margin-top: 60px;
+    gap: 50px;
+  }
+  .s4-logocard img{
+    width: 230px;
+  }  
+/* contact */
+.contact-wrapper{
+    width: 100%;
+    color: white;
+    margin-top: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+
+    
+    }
+    .contact{
+      font-size: 40px;
+    }
+    .footerBG{
+      background-color: var(--footerBG);
+      text-align: center;
+    width: 100%;
+    }
+    .contact-wrapper ul {
+      margin-top: 40px;
+      font-size: 14px;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 40px;
+    
+    }
+    
+    .contact-wrapper ul li a {
+      color: white;
+      padding: 4px 8px 4px 8px;
+    
+    
+    }
+    .numbers{
+      font-size: 26px;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      gap: 220px;
+    
+    }
+    .s4-icon-wrapper img{
+      margin-top: 80px;
+      margin-bottom: 30px;
+      margin-left: 40px;
+      margin-right: 40px;
+    }
+    .copyright{
+      font-size: 12px;
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }

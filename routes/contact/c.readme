@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="../../global.css" />
+    <link rel="stylesheet" href="./contact.css" />
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+</head>
+
+<body>
+    <section class="hero">
+        <header>
+            <div class="logo">
+                <img src="../../img/logo.svg" alt="">
+            </div>
+            <nav class="navbar ">
+
+                <ul>
+                    <li><a href="../../index.html">Home </a></li>
+                    <li><a href="../aboutEvent/aboutEvent.html">About Event</a></li>
+                    <li><a href="../agenda/agenda.html">Agenda</a></li>
+                    <li><a href="../impDates/impDates.html">Important Dates </a></li>
+                    <li><a href="../thematics/thematics.html">Thematics</a></li>
+                    <li><a href="../generalInfo/generalInfo.html">General Information</a></li>
+                    <li><a href="../keySpeaker/keySpeaker.html">Keynote Speakers </a></li>
+                    <li><a href="#Gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!-- cards -->
+
+        <!-- <div class="s3-card-wrapper">
+            <div class="s3-card">
+                <div class="placeholder">
+                   
+                </div>
+                <div class="card-details">
+
+                    <a
+                        href="https://iitr.ac.in/Departments/Water%20Resources%20Development%20and%20Management%20Department/People/Faculty/100938.html">
+                        <h1 class="s3-card-heading">Prof. Mohit Prakash Mohanty</h1>
+                    </a>
+
+                    <p class="s3-card-para">Department of Water Resources Development and
+                        Management,Indian Institute of Technology Roorkee</p>
+                    <div class="card-footer">
+                        <button class="email-btn">Email: mohit.mohanty@wr.iitr.ac.in</button>
+                        <div class="icon-wrapper">
+                            <img src="../../img/icons/Facebook.svg" alt="">
+                            <img src="../../img/icons/Instagram.svg" alt="">
+                            <img src="../../img/icons/LinkedIn.svg" alt="">
+                            <img src="../../img/icons/Twitter.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="s3-card">
+                <div class="placeholder">
+                    
+                </div>
+                <div class="card-details">
+                    <a
+                        href="https://iitr.ac.in/Departments/Water%20Resources%20Development%20and%20Management%20Department/People/Faculty/100479.html">
+                        <h1 class="s3-card-heading">Prof. Ashish Pandey</h1>
+                    </a>
+                   
+                    <p class="s3-card-para">Department of Water Resources Development and Management,
+                        Indian Institute of Technology Roorkee
+                    </p>
+                    <div class="card-footer">
+                        <button class="email-btn">Email: ashish.pandey@wr.iitr.ac.in</button>
+                        <div class="icon-wrapper">
+                            <img src="../../img/icons/Facebook.svg" alt="">
+                            <img src="../../img/icons/Instagram.svg" alt="">
+                            <img src="../../img/icons/LinkedIn.svg" alt="">
+                            <img src="../../img/icons/Twitter.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div> -->
+        <!-- cards -->
+
+        <!-- ========updated contact us========= -->
+
+<!-- <div>
+    <div>
+        <p>GET IN TOUCH</p>
+        <h1>Contact Us For Any Qwery</h1>
+    </div>
+    
+    <div>
+        <div>
+
+        </div>
+    </div>
+</div> -->
+
+        <!-- ========updated contact========= -->
+        <div class="contact-wrapper">
+            <div class="contact">
+                Contact Us
+            </div>
+            <div class="numbers">
+                <p>+1234567890</p>
+                <p>+1234567890</p>
+                <p>+1234567890</p>
+            </div>
+            <div class="footerBG">
+                
+                <ul>
+                    <li><a href="../../index.html">Home </a></li>
+                    <li><a href="../aboutEvent/aboutEvent.html">About Event</a></li>
+                    <li><a href="../agenda/agenda.html">Agenda</a></li>
+                    <li><a href="../impDates/impDates.html">Important Dates </a></li>
+                    <li><a href="../thematics/thematics.html">Thematics</a></li>
+                    <li><a href="../generalInfo/generalInfo.html">General Information</a></li>
+                    <li><a href="../keySpeaker/keySpeaker.html">Keynote Speakers </a></li>
+                    <li><a href="#Gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+
+                <div class="s4-icon-wrapper">
+                    <img src="../../img/icon2/Facebook2.svg" alt="">
+                    <img src="../../img/icon2/Instagram2.svg" alt="">
+                    <img src="../../img/icon2/LinkedIn2.svg" alt="">
+                    <img src="../../img/icon2/Twitter2.svg" alt="">
+                </div>
+            </div>
+            <div class="copyright">
+                © Copyright RS2G. All Rights Reserved
+
+            </div>
+        </div>
+</body>
+
+</html>

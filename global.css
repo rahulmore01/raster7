@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+  
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Inter';
+  font-size: 22px;
+color: black ;
+}
+
+:root {
+
+
+  /* Colors */
+  --registerBTN:#FF5A00;
+  --registerSTROKE:#23A6F0;
+  --registerSTROKE:#23A6F0;
+  --cardBTN:#23A6F0;
+  --grey:#737373;
+  --footerBG:#188bff32;
+
+/* slider */
+--primary: #9635ff;
+  --white: #ffffff;
+  --bg: #f5f5f5;
+  /* border radiuses */
+  --br-3xs: 10px;
+  --br-mini: 15px;
+  --br-4xs: 9px;
+  --br-2xs: 11px;
+  --br-61xl: 80px;
+}
